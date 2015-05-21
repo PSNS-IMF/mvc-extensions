@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Psns.Common.Mvc.Extensions", "src\Psns.Common.Mvc.Extensions\Psns.Common.Mvc.Extensions.csproj", "{690207AC-5153-4035-85EC-1629FB029F50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{889C3A8F-F69C-4783-BB0C-1BC1C0B57C60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CABBBC81-2B86-423F-87CA-35E29011C887}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		build.bat = build.bat
+		Build.proj = Build.proj
+		LICENSE.md = LICENSE.md
+		Psns.Common.Mvc.Extensions.nuspec = Psns.Common.Mvc.Extensions.nuspec
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{86D3A27F-C343-4C0F-B125-C4A280459A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcExtensions.UnitTests", "test\MvcExtensions.UnitTests\MvcExtensions.UnitTests.csproj", "{16F2366F-1127-46B9-800B-5435BABD076D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{690207AC-5153-4035-85EC-1629FB029F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690207AC-5153-4035-85EC-1629FB029F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690207AC-5153-4035-85EC-1629FB029F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690207AC-5153-4035-85EC-1629FB029F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F2366F-1127-46B9-800B-5435BABD076D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F2366F-1127-46B9-800B-5435BABD076D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F2366F-1127-46B9-800B-5435BABD076D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F2366F-1127-46B9-800B-5435BABD076D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{690207AC-5153-4035-85EC-1629FB029F50} = {889C3A8F-F69C-4783-BB0C-1BC1C0B57C60}
+		{16F2366F-1127-46B9-800B-5435BABD076D} = {86D3A27F-C343-4C0F-B125-C4A280459A42}
+	EndGlobalSection
+EndGlobal

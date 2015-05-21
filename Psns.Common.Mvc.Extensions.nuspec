@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Psns.Common.Mvc.Extensions</id>
+    <title>Psns Common Mvc Extensions</title>
+    <authors>PSNS</authors>
+    <owners>109.14</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description></description>
+    <projectUrl>https://github.com/PSNS-IMF/mvc-extensions</projectUrl>
+    <licenseUrl>https://github.com/PSNS-IMF/mvc-extensions/blob/master/LICENSE.md</licenseUrl>
+    <releaseNotes>
+      ## 1.0.0.0
+      ### Features
+      * Initial release
+    </releaseNotes>
+    <version>$version$</version>
+    <tags>PSNS Asp.Net Mvc</tags>
+    <dependencies>
+      <dependency id="Psns.Common.Web.Adapters" version="" />
+      <dependency id="Psns.Common.Persistence.Definitions" version="" />
+      <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Web" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="src\Psns.Common.Mvc.Extensions\$configuration$\Psns.Common.Mvc.Extensions.*" target="lib\net45\" />
+  </files>
+</package>
