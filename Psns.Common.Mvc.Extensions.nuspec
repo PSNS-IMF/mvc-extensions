@@ -26,6 +26,6 @@
     </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="src\Psns.Common.Mvc.Extensions\$configuration$\Psns.Common.Mvc.Extensions.*" target="lib\net45\" />
+    <file src="src\Psns.Common.Mvc.Extensions\bin\$configuration$\Psns.Common.Mvc.Extensions.*" target="lib\net45\" />
   </files>
 </package>
